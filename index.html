@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-do list</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <div class="conteudo-list">
+    <div class="container">
+      <h1>Lista de Tarefas</h1>
+      <form name="botoes">
+        <label for="digitar_tarefas"></label>
+        <input type="text" name="digitar_tarefas" id="dig-tarefa" placeholder="Digite aqui sua tarefa">
+        <button type="button" class="adicionar" id="adicionar-conteudo" onclick="add()">Adicionar</button>
+      </form>
+
+
+      <div class="lista-check">
+
+        <ul>
+          <li class="lista-tarefas">
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
